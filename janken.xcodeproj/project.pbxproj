@@ -24,6 +24,11 @@
 		8C2A5BD8180E4AB800937DE3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C2A5BB0180E4AB700937DE3 /* Foundation.framework */; };
 		8C2A5BE0180E4AB800937DE3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8C2A5BDE180E4AB800937DE3 /* InfoPlist.strings */; };
 		8C2A5BE3180E4AB800937DE3 /* jankenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C2A5BE2180E4AB800937DE3 /* jankenTests.m */; };
+		8C2A5BEF180E656700937DE3 /* ch.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C2A5BEC180E656700937DE3 /* ch.png */; };
+		8C2A5BF0180E656700937DE3 /* gu.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C2A5BED180E656700937DE3 /* gu.png */; };
+		8C2A5BF1180E656700937DE3 /* pa.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C2A5BEE180E656700937DE3 /* pa.png */; };
+		8C2A5BF3180E73EA00937DE3 /* D1020824_bigger.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8C2A5BF2180E73EA00937DE3 /* D1020824_bigger.jpg */; };
+		8C38184C186BFFF500645AF5 /* 新ロシアンルーレット.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C38184B186BFFF500645AF5 /* 新ロシアンルーレット.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +65,11 @@
 		8C2A5BDF180E4AB800937DE3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8C2A5BE1180E4AB800937DE3 /* jankenTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = jankenTests.h; sourceTree = "<group>"; };
 		8C2A5BE2180E4AB800937DE3 /* jankenTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = jankenTests.m; sourceTree = "<group>"; };
+		8C2A5BEC180E656700937DE3 /* ch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ch.png; sourceTree = "<group>"; };
+		8C2A5BED180E656700937DE3 /* gu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gu.png; sourceTree = "<group>"; };
+		8C2A5BEE180E656700937DE3 /* pa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pa.png; sourceTree = "<group>"; };
+		8C2A5BF2180E73EA00937DE3 /* D1020824_bigger.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = D1020824_bigger.jpg; sourceTree = "<group>"; };
+		8C38184B186BFFF500645AF5 /* 新ロシアンルーレット.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "新ロシアンルーレット.png"; path = "../../新ロシアンルーレット.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +135,7 @@
 				8C2A5BC9180E4AB800937DE3 /* MainStoryboard_iPad.storyboard */,
 				8C2A5BCC180E4AB800937DE3 /* ViewController.h */,
 				8C2A5BCD180E4AB800937DE3 /* ViewController.m */,
+				8C38184B186BFFF500645AF5 /* 新ロシアンルーレット.png */,
 				8C2A5BB5180E4AB700937DE3 /* Supporting Files */,
 			);
 			path = janken;
@@ -133,6 +144,10 @@
 		8C2A5BB5180E4AB700937DE3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8C2A5BF2180E73EA00937DE3 /* D1020824_bigger.jpg */,
+				8C2A5BEC180E656700937DE3 /* ch.png */,
+				8C2A5BED180E656700937DE3 /* gu.png */,
+				8C2A5BEE180E656700937DE3 /* pa.png */,
 				8C2A5BB6180E4AB700937DE3 /* janken-Info.plist */,
 				8C2A5BB7180E4AB700937DE3 /* InfoPlist.strings */,
 				8C2A5BBA180E4AB700937DE3 /* main.m */,
@@ -240,6 +255,11 @@
 				8C2A5BC5180E4AB700937DE3 /* Default-568h@2x.png in Resources */,
 				8C2A5BC8180E4AB700937DE3 /* MainStoryboard_iPhone.storyboard in Resources */,
 				8C2A5BCB180E4AB800937DE3 /* MainStoryboard_iPad.storyboard in Resources */,
+				8C2A5BEF180E656700937DE3 /* ch.png in Resources */,
+				8C2A5BF0180E656700937DE3 /* gu.png in Resources */,
+				8C2A5BF1180E656700937DE3 /* pa.png in Resources */,
+				8C2A5BF3180E73EA00937DE3 /* D1020824_bigger.jpg in Resources */,
+				8C38184C186BFFF500645AF5 /* 新ロシアンルーレット.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -467,6 +487,7 @@
 				8C2A5BE8180E4AB800937DE3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8C2A5BE9180E4AB800937DE3 /* Build configuration list for PBXNativeTarget "jankenTests" */ = {
 			isa = XCConfigurationList;
@@ -475,6 +496,7 @@
 				8C2A5BEB180E4AB800937DE3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
